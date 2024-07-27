@@ -1,0 +1,430 @@
+.iphone{
+    padding: 0 4.5572vw;
+    line-height: 18px;
+    margin-bottom: 97px;
+}
+
+
+.iphone .container{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+
+
+
+
+
+
+.iphone .container .card.desc .table{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+.iphone .container .card.desc h1,.iphone .container .card.desc .product .sr{
+    /* width: 600px; */
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: #333333;
+    line-height:36px ;
+
+}
+.iphone .container .card.desc .product .sr{
+    font-size: 1rem;
+}
+.iphone .container .card.desc .table{
+    display: flex;
+    margin: 16px 0;
+   
+}
+
+
+.iphone .container .card.desc .table .share{
+    display: flex;
+    gap: 8px;
+    
+}
+.iphone .container .card.desc .table .share p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.iphone .container .card.desc p, .iphone .container .product p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: #666666;
+}
+
+.iphone .container .card.desc .btn,.iphone .container .product .btn1 button
+    {
+    color:#62D0B6 ;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding-top: 8px;
+    margin-bottom: 24px;
+}
+
+.iphone .container .product{
+    display: flex;
+    padding: 22.5px 16px;
+    justify-content: space-between;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #FFFFFF;
+}
+.iphone .container .product.gifty{
+align-items: center;
+/* margin-bottom: 0; */
+}
+
+.iphone .container .product .card .gift{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+
+}
+.iphone .container .product .card .gift .ph{
+    line-height: 15px;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color: #A5A5A5 !important;
+}
+
+
+.iphone .container .product .card{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 8px;
+    width: 100%;
+}
+
+.iphone .container .product p{
+    color: #333333 !important;
+    
+}
+
+.iphone .container .product .btn1 button{
+    width: 95px;
+    background: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 10px 16px;
+    border: 1px solid #62D0B6;
+    border-radius: 5px;
+
+}
+.iphone .container .product.two{
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+
+.iphone .container .product .container6{
+    min-width: 160px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}
+.iphone .container .product .container6 .card{
+    /* width: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.302vw;
+}
+.iphone .container .product .container6 .card.two{
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+
+
+
+
+.iphone .container .btncart{
+    display: flex;
+    gap: 16px;
+    color: #62D0B6;
+    /* padding:16px 87px ; */
+}
+.iphone .container .btncart .addtocart{
+    width: 50%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #62D0B6;
+    border-radius: 5px;
+    gap: 8px;
+}
+.iphone .container .btncart .addtocart.color{
+    background-color: #62D0B6;
+    color: #FFFFFF;
+}
+
+
+.iphone .container .btncart .addtocart b{
+    font-size: 1rem;
+    font-weight: 400;
+    
+
+}
+
+.products{
+    padding: 0 4.5572vw;
+    line-height: 18px;
+    margin-bottom: 90px;
+}
+
+.products .container{
+    display: flex;
+    justify-content: space-between;
+}
+.products  h1{
+    width: max-content;
+    color: #333333;
+    font-size: 1.875rem;
+    font-weight: 500;
+    line-height: 35px
+}
+
+
+
+.products .box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.products .box button
+
+{
+    padding: 6px 11px;
+    background:none;
+    border: 1px solid #62D0B6 ;
+    border-radius: 5px;
+    margin-bottom: 33px;
+    width: 100px;
+}
+
+.products .box button a{
+    text-decoration: none;
+    color: #62D0B6;
+}
+.products .box button img{
+    position: relative;
+    top: 3px;
+}
+
+.products .shop
+
+ {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 33px;
+}
+
+.products .container .card2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.products .container  .card{
+    max-width: 327px;
+    position: relative;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;   
+}
+.products .container .photo{
+    width: 100%;
+}
+
+.products .container .card:hover{
+    border-color: #62D0B6;
+}
+
+.products .container .card .btn-discount{
+    font-size: 14px;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    padding: 6.5px 18px;
+    background-color: #F55157;
+    color: white;
+    border: none;
+}
+
+
+
+.products .card .photo{
+    width: 100%;
+}
+.products .container .desc{
+    padding-left: 16px;
+}
+.products .container .desc .watch
+{
+    padding: 16px 0 4px 0 ;
+    color: #62D0B6;
+    font-size: 14px;
+    font-weight: 400;
+}
+.products .container .desc .explain
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+.products .container .desc .explain.head{
+    width: 10px;
+}
+.products .container .desc .subtitle
+
+{
+    font-size: 16px;
+    font-weight: 400;
+    color:#666666 ;
+    padding-top: 6px;
+
+}
+.products .container .desc .price{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    padding-top: 4px;
+
+}
+
+.products .container .desc .price.p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    padding-top: 8px;
+
+    
+
+
+}
+
+.products .container .desc .price span {
+    font-size: 18px;
+    color: #F55157;
+}
+.products .container .desc .price .sr{
+    color: black !important;
+}
+.products .container .desc .add{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 0 40px 0;
+}
+.products .container .desc .add .like{
+    padding: 19px;
+    border: 1px solid #EEEEEE ;
+
+    
+    
+}
+.products .container .desc .add .addtocart
+{
+    
+    width: max-content;
+    padding: 16px 48px;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.products .container .desc .add .addtocart.color,
+.products .container .card .btn-discount.new
+ {
+    background-color: #62D0B6;
+    color: white;
+    border-radius: 5px;
+}
+.products .container .desc .add .addtocart:hover{
+    background-color: #62D0B6;
+    color: white;
+}
+
+.products .container .card.five{
+    border: 3px solid #62D0B6;
+    border-radius: 5px;
+} 
+
+
+
+.products .container .desc  .add .addtocart b{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.products .container .card2 a{
+    text-decoration: none;
+}
+
+.products .container .card .desc .watch.air{
+    text-align: end;
+}
+
+
+
+
+
+
+@media screen and (max-width : 992px){
+    html{
+        font-size: 10px;
+    }
+    .iphone .container .card.img img{
+        width: 100%;
+    }
+
+    .iphone .container .product.gifty{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    
+    
+    .products .container,.iphone .container, .iphone .container .card.desc .table{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .products .container .desc .add .addtocart{
+        padding: 16px 2.0182vw;
+    }
+    .products .shop{
+        width: 200px;
+    }
+}
+
+
+
+
+

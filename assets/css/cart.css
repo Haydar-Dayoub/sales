@@ -1,0 +1,171 @@
+.cart{
+    padding: 0 4.5572vw;
+    /* margin-top: 56px; */
+}
+.cart.two{
+    padding-bottom: 56px;
+}
+.cart .container{
+    width: 90vw;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* .cart .container .card-parent{
+    width: 75%;
+} */
+
+.cart .container .card{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid #EEEEEE;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.cart .container .card .detail{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cart .container .card .detail .img{
+    width: 95px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+
+}
+
+.cart .container .card .detail .apple{
+    max-width: 352px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.cart .container .card .detail .apple p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #333333;
+}
+.cart .container .card .detail .apple .ph,.cart .container .card-order span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+}
+
+.cart .container .card .container6{
+    /* min-width: 160px; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}
+.cart .container .card .container6 .cards{
+    /* width: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.302vw;
+}
+.cart .container .card .container6 .cards.two{
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.cart .container .card .sr, .cart .container .card-order h2{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #333333;
+}
+
+.cart .container .card-order{
+    padding: 16px;
+    border: 1px solid #EEEEEE;
+    background-color: #FFFFFF;
+}
+.cart .container .card-order .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+.cart .container .card-order span{
+    color: #333333;
+
+
+}
+.cart .container .card-order form{
+    border-bottom: 1px solid #EEEEEE;
+    padding-top: 6px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+
+}
+
+.cart .container .card-order form input{
+    padding: 11px 0 11px 14px ;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;   
+}
+.cart .container .card-order form .add{
+    background: none;
+    color: #62D0B6;
+    border: 1px solid #62D0B6;
+    border-radius: 5px;
+    padding: 11px;
+}
+
+.cart .container .card-order .include{
+    font-size: 14px;
+    font-weight: 400;
+    color: #A5A5A5;
+    padding-top: 4px;
+}
+
+.cart .container .card-order a .check{
+    margin-top: 16px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #62D0B6;
+    color: #FFFFFF;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.cart .container .haydar{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+}
+
+
+@media screen and (max-width : 992px){
+    html{
+        font-size: 10px;
+    }
+    .cart .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cart .container .card{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

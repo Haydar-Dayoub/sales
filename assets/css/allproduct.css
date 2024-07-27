@@ -1,0 +1,288 @@
+
+.products{
+    padding: 0 4.5572vw;
+    line-height: 18px;
+}
+
+
+
+
+/* grid/*
+/* 
+.products .container{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(288px , 320px));
+    gap: 30px;
+    
+}
+
+.products .container .card 
+{
+    padding: 17px;
+    width: 100%;
+    height: 500px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    
+}
+.products .container .card.one{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.products .container .card.air{
+    grid-column-start: 2;
+}  */
+
+.products .container {
+    width: 90vw;
+    display: flex;
+    gap: 30px;
+}
+
+.products .container .card.one{
+    width: 282px;
+    padding: 17px;
+    height: 1278px;
+}
+
+
+
+
+.products .container .card .child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+    margin-bottom: 16px;
+}
+.products .container .card .child p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#666666 ;
+    max-width: 150px;
+}
+.products .container .card .child .all{
+
+    color:#333333 ;
+}
+.products .container .card .child .show{
+    color: #62D0B6;
+    padding-bottom: 23px;
+}
+
+.products .container .card .child .title{
+    font-size: 16px;
+    font-weight: 400;
+    color:#333333 ;
+    padding-top: 16px;
+}
+.products .container .card .child .child2{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-align: end;
+    font-size: 14px;
+}
+
+.products .container .card .child.end  {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.products .container .card .child.end.reset button  {   
+    margin-top: 8px; 
+    padding: 10px 105px;
+    color: #333333;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background: none;
+}
+
+
+.products .box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.products .box button
+
+{
+    padding: 6px 11px;
+    background:none;
+    border: 1px solid #62D0B6 ;
+    border-radius: 5px;
+    margin-bottom: 33px;
+    width: 100px;
+}
+
+.products .box button a{
+    text-decoration: none;
+    color: #62D0B6;
+}
+.products .box button img{
+    position: relative;
+    top: 3px;
+}
+
+.products .shop
+
+ {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 33px;
+}
+
+.products .container .card2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.products .container  .card{
+    /* width: 327px; */
+    position: relative;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;   
+}
+
+.products .container .card:hover{
+    border-color: #62D0B6;
+}
+
+.products .container .card .btn-discount{
+    font-size: 14px;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    padding: 6.5px 18px;
+    background-color: #F55157;
+    color: white;
+    border: none;
+}
+
+
+
+.products .card .photo{
+    width: 100%;
+}
+.products .container .desc{
+    padding-left: 16px;
+}
+.products .container .desc .watch
+{
+    padding: 16px 0 4px 0 ;
+    color: #62D0B6;
+    font-size: 14px;
+    font-weight: 400;
+}
+.products .container .desc .explain
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+.products .container .desc .explain.head{
+    width: 10px;
+}
+.products .container .desc .subtitle
+
+{
+    font-size: 16px;
+    font-weight: 400;
+    color:#666666 ;
+    padding-top: 6px;
+
+}
+.products .container .desc .price{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    padding-top: 4px;
+
+}
+.products .container .desc .price span {
+    font-size: 18px;
+    color: #F55157;
+}
+.products .container .desc .price .sr{
+    color: black !important;
+}
+.products .container .desc .add{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 0 40px 0;
+}
+.products .container .desc .add .like{
+    padding: 19px;
+    border: 1px solid #EEEEEE ;
+
+    
+    
+}
+.products .container .desc .add .addtocart
+{
+    
+    width: max-content;
+    padding: 16px 48px;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.products .container .desc .add .addtocart.color,
+.products .container .card .btn-discount.new
+ {
+    background-color: #62D0B6;
+    color: white;
+    border-radius: 5px;
+}
+.products .container .desc .add .addtocart:hover{
+    background-color: #62D0B6;
+    color: white;
+}
+
+.products .container .card.five{
+    border: 3px solid #62D0B6;
+    border-radius: 5px;
+} 
+
+
+
+.products .container .desc  .add .addtocart b{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.products .container .card2 a{
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width : 992px){
+    
+    .products .container{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .products .container .desc .add .addtocart{
+        padding: 16px 2.0182vw;
+    }
+    .products .shop{
+        width: 200px;
+    }
+}
+
+

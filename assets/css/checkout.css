@@ -1,0 +1,168 @@
+.checkout,.payment{
+    padding: 0 4.5572vw;
+    margin-top: 56px;
+}
+
+.checkout h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 29px;
+
+}
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+
+}
+.container .card-parent,.container .city{
+    display: flex;
+    gap: 38px;
+}
+.container .city{
+    gap: 32px;
+}
+
+.container .card-parent .card p,.container .city p,.container .phone p,.payment .container .card .credit p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    /* width: max-content; */
+}
+
+.container .card-parent .card input, .container .city input,.container .phone input{
+    width: 382px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 16px 0 16px 20px;
+    background-color:#F6F6F6 ;
+    border: none;
+    border-radius: 5px;
+    color: #807D7E;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container .city .card input{
+    width: 246px;
+}
+
+
+.container  .check{
+    /* margin-top: 16px; */
+    
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #62D0B6;
+    color: #FFFFFF;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 21px;
+}
+
+.container .check1{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 57px;
+}
+
+.payment h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.payment .all{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 44px;
+    max-width: max-content;
+}
+.payment .container{
+    width: 90vw;
+    margin: 0 auto;
+    background-color: #F5F5F555;
+    margin-bottom: 90px;
+}
+.payment .container .card{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.payment .container .card .credit h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 5px;
+}
+
+.payment .container .card2{
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 37px;
+}
+.payment .container .card3{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 28px;
+}
+.payment .container .card3 input{
+    width: 337px;
+    background: none;
+    border: none;
+    border: 1px solid #3C4242;
+    font-size: 14px;
+    font-weight: 400;
+    color: #807D7E;
+    border-radius: 8px;
+    padding: 16px 0 16px 20px;
+    margin-left: 37px;   
+}
+.payment .container .card.border{
+    width: 859.0805px;
+    padding: 30px 0;
+    border-top: 1px solid #BEBCBD;
+    border-bottom: 1px solid #BEBCBD;
+    margin-bottom: 30px;
+}
+
+.payment .container .check.pay{
+    margin-top: 38px;
+    width: 209px;
+    margin-bottom: 36px;
+    
+}
+
+
+
+
+
+@media screen and (max-width : 992px){
+    .container .card-parent, .container .city,.payment .container .card2,.payment .container .card3{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container .card-parent .card input,
+     .container .city input,
+     .container .phone input,
+     .container  .check,
+     .payment .container .check.check.pay,
+     .payment .container .card2,
+     .payment .container .card3,
+     .payment .container .card3 input
+     ,.payment .container .card.border{
+        width: 100%;
+    }
+    .payment .container .card2{
+        margin-left: 0;
+    }
+    .payment .container .card3 input{
+        margin-left: 0;
+    }
+}
