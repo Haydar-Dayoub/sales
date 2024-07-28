@@ -208,13 +208,22 @@
     gap: 10px;
     
 }
-.products .container .desc .add .addtocart.color,
+.products .container .desc  .add .addtocart b{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+}
+.products .container .desc .add .addtocart.color ,
 .products .container .card .btn-discount.new
 {
     background-color: #62D0B6;
-    color: white;
+    color: white !important;
     border-radius: 5px;
 }
+.products .container .desc .add .addtocart.color b{
+    color: white;
+}
+
 .products .container .desc .add .addtocart:hover{
     background-color: #62D0B6;
     color: white;
@@ -225,10 +234,7 @@
     border-radius: 5px;
 } 
 
-.products .container .desc  .add .addtocart b{
-    font-size: 14px;
-    font-weight: 500;
-}
+
 
 
 
