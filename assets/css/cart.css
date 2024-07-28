@@ -148,7 +148,7 @@
     border: none;
     border-radius: 5px;
 }
-.cart .container .haydar{
+.cart .container .sub{
     display: flex;
     align-items: center;
     gap: 45px;
