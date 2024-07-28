@@ -166,10 +166,7 @@
     padding: 0 4.5572vw;
     line-height: 18px;
 }
-/* .products h1 , .categories h1 , {
-    font-size: 1.875rem;
-    line-height: 35px;
-} */
+
 .products .box,
 .categories .box,
 .offers .box
@@ -195,10 +192,10 @@
     text-decoration: none;
     color: #62D0B6;
 }
-.products .box button img{
+/* .products .box button img{
     position: relative;
     top: 3px;
-}
+} */
 
 .products .shop
  ,.categories p
@@ -213,16 +210,14 @@
 
 .products .container{   
     width: 90vw;
-    /* height: 1000px; */
     margin: 0 auto;
     padding-bottom: 56px;
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(200px,327px));
-    /* grid-template-rows: repeat(2 ,474.518px); */
     gap: 16px 24px;
     
 }
-.products .container .card{
+.products .container .card,.offers .container .card{
     position: relative;
     border: 1px solid #EEEEEE;
     border-radius: 5px;   
@@ -232,7 +227,7 @@
     border-color: #62D0B6;
 }
 
-.products .container .card .btn-discount{
+.products .container .card .btn-discount,.offers .container .card .btn-discount{
     font-size: 14px;
     position: absolute;
     left: 16px;
@@ -302,6 +297,7 @@
 ,.offers .container .card .card-box .add .like{
     padding: 19px;
     border: 1px solid #EEEEEE ;
+    border-radius: 5px;
 
     
     
@@ -313,6 +309,7 @@
     width: max-content;
     padding: 16px 48px;
     border: 1px solid #EEEEEE;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -693,6 +690,9 @@
 
     .image .container .card.headphone,.image .container .card.samsung{
         background-position: center;
+    }
+    .offers .container .card .left{
+        width: 100%;
     }
 
 }

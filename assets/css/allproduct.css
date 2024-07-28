@@ -118,6 +118,7 @@
     border-radius: 5px;   
 }
 
+
 .products .container .card:hover{
     border-color: #62D0B6;
 }
@@ -192,7 +193,8 @@
 
 .products .container .desc .add .like{
     padding: 19px;
-    border: 1px solid #EEEEEE ;   
+    border: 1px solid #EEEEEE ; 
+    border-radius: 5px;  
 }
 .products .container .desc .add .addtocart
 {
@@ -200,6 +202,7 @@
     width: max-content;
     padding: 16px 48px;
     border: 1px solid #EEEEEE;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -226,6 +229,9 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+
+
 
 .products .container .card2 a{
     text-decoration: none;

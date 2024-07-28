@@ -343,6 +343,7 @@ align-items: center;
 .products .container .desc .add .like{
     padding: 19px;
     border: 1px solid #EEEEEE ;
+    border-radius: 5px;
 
     
     
@@ -356,6 +357,7 @@ align-items: center;
     display: flex;
     align-items: center;
     gap: 10px;
+    border-radius: 5px;
     
 }
 .products .container .desc .add .addtocart.color,
@@ -387,9 +389,7 @@ align-items: center;
     text-decoration: none;
 }
 
-.products .container .card .desc .watch.air{
-    text-align: end;
-}
+
 
 
 
