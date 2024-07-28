@@ -414,6 +414,7 @@ align-items: center;
     .products .container,.iphone .container, .iphone .container .card.desc .table{
         justify-content: center;
         flex-direction: column;
+        gap: 15px;
     }
 
     .products .container .desc .add .addtocart{
