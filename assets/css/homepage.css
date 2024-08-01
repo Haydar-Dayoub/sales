@@ -215,12 +215,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(200px,327px));
     gap: 16px 24px;
+    justify-content: center;
     
 }
 .products .container .card,.offers .container .card{
     position: relative;
     border: 1px solid #EEEEEE;
-    border-radius: 5px;   
+    border-radius: 5px;
+    width: 100%;   
 }
 
 .products .container .card:hover{
@@ -696,7 +698,7 @@
         background-position: center;
     }
     .offers .container .card .left{
-        width: 100%;
+        width: 80%;
     }
 
 }
