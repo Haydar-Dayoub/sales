@@ -160,7 +160,7 @@ footer .foot form button{
 .copyright{
     background-color: #1D1F1F;
     display: flex;
-    
+    flex-wrap: wrap;
     align-items: center;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -169,7 +169,7 @@ footer .foot form button{
 .copyright .child{
     display: flex;
     align-items: center;
-    gap: 464px;
+    gap: 413px;
 }
 
 
@@ -196,7 +196,7 @@ footer .foot form button{
 
 
 .copyright .all.tax{
-    padding-left: 3.7109vw;
+    
     width: 230px;
 }
 

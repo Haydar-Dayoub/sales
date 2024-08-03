@@ -92,6 +92,10 @@
     line-height: 35px;
 
 }
+.first .container .card .payments .title{
+    font-size: 1.5rem;
+}
+
 .first .container .payments p{
     width: 100%;
     color: #666666;
@@ -595,15 +599,17 @@
     justify-content: space-between;
 }
 .brands .container .card{
-    width: 228px;
+    max-width: 228px;
     border: 1px solid #EEEEEE;
     border-radius: 5px;
-    padding: 24px 35px;
+    padding: 24px 2.2786vw;
     background-color: #FFFFFF;
 }
 
 .brands .container .card img{
     filter: grayscale(100%);
+    width: 132px;
+   
 }
 
 

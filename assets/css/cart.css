@@ -149,6 +149,7 @@
     padding: 16px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .cart .container .sub{
     display: flex;
